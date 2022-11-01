@@ -41,6 +41,9 @@ func main() {
 	buah = append(buah[:2], buah[3:]...)
 	fmt.Println(buah)
 
+
+	//14.md - Hapus item Array
+	fmt.Println("Filter MAP Array")
 	orang := []map[string]interface{}{
 		{"id": 1, "name": "Udin", "age": 12},
 		{"id": 2, "name": "Wati", "age": 51},
