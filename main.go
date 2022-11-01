@@ -35,14 +35,14 @@ func main() {
 	fmt.Println(stuff)
 
 	//11.md - Hapus item Array
-	fmt.Println("Tambah item ARRAY")
+	fmt.Println("Hapus Item Array")
 	buah := []string{"Jeruk", "Pepaya", "Jambu", "Anggur", "Melon"}
 	//hapus jambu
 	buah = append(buah[:2], buah[3:]...)
 	fmt.Println(buah)
 
 
-	//14.md - Hapus item Array
+	//14.md - Filter Map Array
 	fmt.Println("Filter MAP Array")
 	orang := []map[string]interface{}{
 		{"id": 1, "name": "Udin", "age": 12},
